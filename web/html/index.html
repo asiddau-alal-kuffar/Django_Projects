@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/ALAL.png" type="image/x-icon">
+    <title>Student Records Management System!</title>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div id="boxS">
+                <h1 id="Student">Student Records Management System!</h1>
+            </div>
+            <ul id="nav-bar">
+                <a href="/" class="tx">Home</a>
+                <a href="/" class="tx">Education</a>
+                <a href="/" class="tx">Experience</a>
+                <a href="/" class="tx">Projects</a>
+            </ul>
+            
+            
+        </div>
+
+    </header>
+    <div id="main">
+        <div id="box1">
+            <form method="get">
+
+                <center>
+                    <br>
+                    <h1>Student Records Management System!</h1><br>
+                    <hr>
+                    <!-- ['id','Profile Image','Student ID','First Name','Last Name','Phone #','Email','Address','Date Update'] -->
+                    <input type="file" placeholder="Profile Image" name="Profile Image" id="Profile Image">
+                    <br>
+                    <input type="number" placeholder="Student ID" name="Student ID" id="Student ID">
+                    <br>
+                    <input type="number" placeholder="Student Roll No." name="Roll No" id="Roll No">
+                    <br>
+                    <input type="text" placeholder="Student Class" name="Class" id="Class">
+                    <br>
+                    <select name="Shift" id="Shift">
+                        <option value="1st Shift">1st Shift</option>
+                        <option value="2nd Shift">2nd Shift</option>
+                    </select>
+                    <br>
+                    <input type="text" placeholder="Student's Name" name="Student's Name" id="Student's Name">
+                    <br>
+                    <input type="text" placeholder="Father's Name" name="Father's Name" id="Father's Name">
+                    <br>
+                    <input type="text" placeholder="Mother's Name" name="Mother's Name" id="Mother's Name">
+                    <br>
+                    <input type="number" placeholder="Mobile No." name="Mobile No" id="Mobile No">
+                    <br>
+                    <select name="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <br>
+                    <input type="email" placeholder="Email" name="Email" id="Email">
+                    <br>
+                    <input type="text" placeholder="Address" name="Address" id="Address">
+                    
+                    <br><br>
+                    <button name="Add" value="add" class="butA" type="submit">Add</button>
+                    <button name="Edit" value="edit" class="butA" type="submit">Edit</button>
+                    <button name="Delete" value="delete" class="butA" type="submit">Delete</button>
+                    <button name="View" value="view" class="butA" type="submit">View</button>
+
+                </form>
+            </center>
+        </div>
+        <div id="box2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>id</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Asik</td>
+                        <td>898</td>
+                    </tr>
+                    <tr>
+                        <td>Asik</td>
+                        <td>898</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

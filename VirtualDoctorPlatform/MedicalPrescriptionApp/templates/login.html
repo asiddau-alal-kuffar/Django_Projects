@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+
+</head>
+
+<body>
+    <main>
+        <div id="main">
+
+            <div id="LoginBoxMain">
+                <form method="POST" action="/MedicalPrescriptionApp/Login/">
+                    {% csrf_token %}
+                    <center>
+                        <br>
+                        <br>
+                        <h1>Virtual Doctor Platform System!</h1><br>
+                        <br>
+                        <input type="text" class="loginBox" placeholder="User ID" name="user" id="User">
+                        <br>
+                        <input type="password" class="loginBox" placeholder="User Password" name="password"
+                            id="password">
+                        <br>
+                        <button type="submit" name="login" class="loginButton">login</button>
+
+                </form>
+                </center>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

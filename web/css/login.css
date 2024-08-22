@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: #00b4d8;
+    width: 1920px;
+    height: 1080px;
+
+}
+
+#nav{
+    background-color: rgb(23, 89, 230);
+    width: 1920px;
+    height: 60px;
+        
+}
+
+.nav navbar-nav{
+    nav-down: auto;
+}
+#nav-bar{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+#th1{
+    position:relative;
+    top: 12px;
+    left: 14%;
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.tx{
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 28px;
+    color: #d7edf1;    
+
+}
+
+#Student{
+    color: #000;
+    position: absolute;
+    left: 25px;
+    
+}
+#boxS{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 20px;
+    border-radius: 3px;
+    position: relative;
+    left: 12%;
+    top: 2px;
+
+}
+#LoginBoxMain{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 470px;
+    border-radius: 20px;
+    position: absolute;
+    left: 32%;
+    top: 150px;
+    
+    
+
+}
+
+.loginBox{
+    width: 250px;
+    height: 24px;
+    outline: 0;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.butA{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 5px;
+    border: 0;
+    background-color: #00b4d8;
+    color: #fff;
+    
+}
+.butA:hover{
+    background-color: #34c2dfe1;
+    color: #000;
+}
+
