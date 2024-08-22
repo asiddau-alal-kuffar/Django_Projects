@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+
+}
+#main{
+    /* background-color: #00b4d8; */
+    width: 1920px;
+    height: 1080px;
+
+}
+
+#nav{
+    background-color: rgb(23, 89, 230);
+    width: 1920px;
+    height: 60px;
+        
+}
+
+#box2{
+    width: 450px;
+    height: 700px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    border-radius: 20px;
+}
+table{
+  padding: 8px;
+  line-height: 20px;
+  color: #000;
+}
+table tbody tr {
+    border-top: 1px solid #000;
+}
+
+
+#Student{
+    color: #000;
+    position: absolute;
+    left: 25px;
+    
+}
+#boxS{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 20px;
+    border-radius: 3px;
+    position: relative;
+    left: 12%;
+    top: 2px;
+
+}
+.nav navbar-nav{
+    nav-down: auto;
+}
+#nav-bar{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+#th1{
+    position:relative;
+    top: 12px;
+    left: 14%;
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.tx{
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 28px;
+    color: #d7edf1;    
+
+}
+
+/* Login box */
+#LoginBoxMain{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 470px;
+    border-radius: 20px;
+    position: absolute;
+    left: 32%;
+    top: 150px;
+    
+    
+
+}
+
+.loginBox{
+    width: 250px;
+    height: 24px;
+    outline: 0;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.loginButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 5px;
+    border: 0;
+    background-color: #00b4d8;
+    color: #fff;
+    
+}
+.loginButton:hover{
+    background-color: #34c2dfe1;
+    color: #000;
+}
+
+/* Register Box */
+#RegisterBoxMain{
+    background-color: whitesmoke;
+    height: 700px;
+    width: 470px;
+    border-radius: 20px;
+    position: absolute;
+    left: 32%;
+    top: 150px;
+
+}
+
+input{
+    width: 250px;
+    height: 24px;
+    outline: 0;
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+}
+#Gender{
+    width: 260px;
+    height: 24px;
+    outline: 0;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 3px;
+    margin: 2px;
+}
+#Shift{
+    width: 260px;
+    height: 24px;
+    outline: 0;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 3px;
+    margin: 2px;
+}
+.butA{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 5px;
+    border: 0;
+    background-color: #00b4d8;
+    color: #fff;
+    
+}
+.butA:hover{
+    background-color: #34c2dfe1;
+    color: #000;
+}
+
+
+

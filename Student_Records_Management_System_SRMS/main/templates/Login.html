@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock title %}
+
+{% block body %}
+<div id="LoginBoxMain" >
+    <form method="post" action="/Login">
+
+        <center>
+            <br>
+            <br>
+            <h1>Student Records Management System!</h1><br>
+            <br>
+            <input type="text" class="loginBox" placeholder="User ID" name="User" id="User">
+            <br>
+            <input type="password" class="loginBox" placeholder="User Password" name="password" id="password">
+            <br>
+            <button type="submit" name="login" class="loginButton">login</button>
+
+        </form>
+    </center>
+</div>
+{% endblock body %}

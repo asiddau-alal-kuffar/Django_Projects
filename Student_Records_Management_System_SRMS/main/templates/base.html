@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
+    <title>{% block title %}{% endblock title %} | Student Records Management System!</title>
+    <style>{% block styleBox %}{% endblock styleBox %}</style>
+
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div id="boxS">
+                <h1 id="Student">Student Records Management System!</h1>
+            </div>
+            <ul id="nav-bar">
+                <a href="/" class="tx">Home</a>
+                <a href="/Education" class="tx">Education</a>
+                <a href="/StudentIdCards" class="tx">StudentIdCards</a>
+                <a href="/Register" class="tx">Register Students</a>
+                <a href="/Login" class="tx">Login</a>
+                <a href="/admin" class="tx">Admin</a>
+                <a href="/" class="tx">Projects</a>
+            </ul>
+            
+            
+        </div>
+
+    </header>
+    <main>
+        {% block body %}{% endblock body %}
+    </main>
+    <footer></footer>
+</body>
+</html>

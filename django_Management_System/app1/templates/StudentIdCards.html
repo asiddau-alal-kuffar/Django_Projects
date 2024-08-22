@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Student Id Cards{% endblock title %}
+
+
+{% block styleBox %}
+/* StudentIdCardsMain */
+.StudentIdCardsMain{
+    width: 192px;
+    height: 288px;
+    background-color: #ddd;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 32px;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+#alal{
+    position: absolute;
+    top: 44px;
+    left: 20px;
+}
+
+{% endblock styleBox %}
+
+
+{% block body %}
+<div id="main">
+
+    <div class="StudentIdCardsMain">
+        <div class="logo" >
+                <img src="/static/img/logo.png" alt="logo">
+        </div>
+        <h1 id='alal'>Alal Student Id Cards</h1>
+    </div>
+</div>
+{% endblock body %}
+
+
